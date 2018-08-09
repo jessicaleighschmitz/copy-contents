@@ -1,6 +1,6 @@
 # copy-contents
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that An app made to copy the contents of a github repo folder
+> A GitHub App built with Octokit/rest.js. Designed to copy the contents of a file in a Github repo.
 
 ## Setup
 
@@ -8,9 +8,8 @@
 # Install dependencies
 npm install
 
-# Run the bot
-npm start
-```
+# view copied files
+$ node index.js
 
 ## Contributing
 
