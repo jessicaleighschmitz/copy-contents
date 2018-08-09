@@ -1,0 +1,37 @@
+{
+  "name": "copy-contents",
+  "version": "1.0.0",
+  "description": "An app made to copy the contents of a github repo folder",
+  "author": "Jessica Schmitz <jessica.schmitz@moovel.com>",
+  "license": "ISC",
+  "repository": "https://github.com/jessicaleighschmitz/copy-contents.git",
+  "homepage": "https://github.com/jessicaleighschmitz/copy-contents",
+  "bugs": "https://github.com/jessicaleighschmitz/copy-contents/issues",
+  "keywords": [
+    "github"
+  ],
+  "scripts": {
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "./index.js",
+    "lint": "standard --fix",
+    "test": "jest && standard",
+    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+  },
+  "dependencies": {
+    "@octokit/rest": "^15.9.5"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.2",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
