@@ -8,6 +8,8 @@
 # Install dependencies
 npm install
 
+Change file location and user in repo to select which repo and file you would like to see the contents of.
+
 # view copied files
 $ node index.js
 
